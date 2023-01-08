@@ -113,8 +113,10 @@ h3{
 #academic-interest{
     font-weight: 600;
     color: black;
-    font-size: initial;
+    font-size: 18px;
     border: none;
+    background-color: white;
+    border-radius: 0;
 }
 
 .resume{
