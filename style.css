@@ -94,14 +94,23 @@ h3{
     text-decoration: none;
     color: black;
     font-weight: 600;
-    transition: text-decoration 0.5s ease-out;
+}
+
+.about .text * a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
 }
 
 .about .text * a:hover{
-    text-decoration: underline;
+    width: 100%;
 }
 
-.about .text * span{
+span#academic-interest{
     font-weight: 600;
 }
 
