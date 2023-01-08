@@ -110,8 +110,11 @@ h3{
     width: 100%;
 }
 
-span#academic-interest{
+#academic-interest{
     font-weight: 600;
+    color: black;
+    font-size: initial;
+    border: none;
 }
 
 .resume{
