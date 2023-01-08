@@ -106,7 +106,7 @@ h3{
     transition: 0.3s;
 }
 
-.about .text * a:hover{
+.about .text * a:hover::after{
     width: 100%;
 }
 
