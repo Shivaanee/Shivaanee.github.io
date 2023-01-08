@@ -13,17 +13,17 @@ define('CONTACTFORM_FROM_NAME', 'Contact Form Submission');
 
 // The name and address to which the contact message should be sent.
 // These details should NOT be the same as the sender details.
-define('CONTACTFORM_TO_ADDRESS', 'shivaaneeeswaran2003@gmail.com');
+define('CONTACTFORM_TO_ADDRESS', 'eshiva200@gmail.com');
 define('CONTACTFORM_TO_NAME', 'Shivaanee');
 
 // The details of your SMTP service, e.g. Gmail.
 define('CONTACTFORM_SMTP_HOSTNAME', 'smtp.gmail.com');
-define('CONTACTFORM_SMTP_USERNAME', 'shivaaneeeswaran2003@gmail.com');
-define('CONTACTFORM_SMTP_PASSWORD', 'oodpjemrxyeilqrt');
+define('CONTACTFORM_SMTP_USERNAME', 'eshiva200@gmail.com');
+define('CONTACTFORM_SMTP_PASSWORD', 'iujfglgugozesmai');
 
 // The reCAPTCHA credentials for your site. You can get these at https://www.google.com/recaptcha/admin
-define('CONTACTFORM_RECAPTCHA_SITE_KEY', '6Lc53ckeAAAAAFXoqs_2y5QCNHBJdr6Us-pFwcrJ');
-define('CONTACTFORM_RECAPTCHA_SECRET_KEY', '6Lc53ckeAAAAAB5NYtvJPcrWvCpR4Zgh4SFcI-_V');
+define('CONTACTFORM_RECAPTCHA_SITE_KEY', '6LeJTN4jAAAAADFHnTOdAT319HP03oJtD1C-VjW-');
+define('CONTACTFORM_RECAPTCHA_SECRET_KEY', '6LeJTN4jAAAAADeaTtGMxWLm-yO0heIoIbEg5URK');
 
 /**
  * Optional Settings
