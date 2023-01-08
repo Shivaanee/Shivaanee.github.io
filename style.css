@@ -13,7 +13,7 @@
 body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    padding: 0 100px;
+    /* padding: 0 100px; */
 }
 
 .home{
@@ -22,6 +22,7 @@ body{
     /* align-items: center; */
     height: 95vh;
     justify-content: center;
+    padding: 0 100px;
 }
 
 .home a{
@@ -72,6 +73,7 @@ a#top{
 section{
     padding: 125px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     line-height: 30px;
 }
@@ -91,23 +93,16 @@ h3{
 }
 
 .about .text * a{
-    text-decoration: none;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 100%;
+    transition: background-size 0.25s ease-in;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
 }
-
-.about .text * a::after{
-    content: '';
-    width: 0;
-    height: 2px;
-    background-color: black;
-    display: block;
-    margin: auto;
-    transition: 0.3s;
-}
-
-.about .text * a:hover::after{
-    width: 100%;
+.about .text * a:hover {
+    background-size: 100% 100%;
 }
 
 #academic-interest{
@@ -117,6 +112,7 @@ h3{
     border: none;
     background-color: white;
     border-radius: 0;
+    padding: 0;
 }
 
 .resume{
@@ -149,14 +145,17 @@ h3{
 
 .skills .text{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.skill{
-    margin: 0 2vw 0 0;
+.skills h3{
+    margin-top: 10px;
 }
 
 .skill h3{
     text-transform: capitalize;
+    margin-top: 10px;
 }
 
 .skill ul{
@@ -164,13 +163,18 @@ h3{
     padding: 0;
 }
 
+/* .projects .text{
+    width: 60%;
+} */
+
 .project{
     display: flex;
     padding-bottom: 50px;
 }
 
 .aboutProject{
-    padding: 0 30px;
+    padding-left: 30px;
+    width: 250px;
 }
 
 .aboutProject h3{
@@ -192,6 +196,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    padding: 0 100px;
 }
 
 footer h3{
@@ -210,11 +215,23 @@ footer h3{
     margin: 0 20px;
     color: blue;
     font-weight: 500;
+    background-image: linear-gradient(120deg, blue 0%, blue 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 50% 70%;
+    transition: background-position 0.25s ease-in, background-size 0.25s ease-in;
+    padding-bottom: 5px;
+}
+
+.socials ul li:hover{
+    background-size: 100% 0.1em;
+    background-position: 0 100%;
+}
+
+.socials ul li a:visited{
+    color: blue;
 }
 
 a{
     text-decoration: none;
-    /* color: black; */
-    /* ########### HOW TO DO THE UNDERLINE EFFECT ######### */
-    /* text-decoration: underline solid blue 2px; */
 }
