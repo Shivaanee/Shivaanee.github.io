@@ -1,0 +1,191 @@
+/* ########## Underline effect for links ########## */
+/* ########## Add link to icon(hand pointing up) to home page without reloading, i.e., scroll up ########### */
+/* ########## Add dark mode as well ########## */
+/* Style contact section */
+/* Make Responsive. Skills section stays same size with decreasing screen size(width); Left padding stays while right is decreased */
+/* Skills section columns responsive. check one of project50. */
+
+*{
+    margin: 0;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 100px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 95vh;
+    justify-content: center;
+}
+
+.home a{
+    color: black;
+}
+
+.h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 100px;
+    color: rgb(0, 0, 0);
+}
+
+h1 .bolder{
+    font-weight: 400;
+}
+
+.home .intouch{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.home .intouch a{
+    border-bottom: solid 1px blue;
+    padding: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.home .intouch a:hover{
+    background-color: blue;
+    color: white;
+}
+
+a#top.active{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    visibility: visible;
+}
+
+a#top{
+    visibility: hidden;
+}
+
+section{
+    padding: 125px 0;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+
+h3{
+    font-weight: 500;
+    color: blue;
+    margin: 0;
+    padding-right: 60px;
+    text-transform: uppercase;
+    width: 10%;
+    text-align: right;
+}
+
+.text{
+    width: 50%;
+}
+
+.resume{
+    padding: 0 0 100px 0;
+    display: block;
+}
+
+.resume h3{
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+    color: black;
+    font-weight: 700;
+}
+
+.arrow-effect{
+    color: black;
+}
+
+.arrow-effect i{
+    position: relative;
+    right: 0;
+    transition: all 0.5s;
+    color: blue;
+}
+
+.arrow-effect:hover i{
+    right: -15px;
+}
+
+.skills .text{
+    display: flex;
+}
+
+.skill{
+    margin: 0 2vw 0 0;
+}
+
+.skill h3{
+    text-transform: capitalize;
+}
+
+.skill ul{
+    list-style: none;
+    padding: 0;
+}
+
+.project{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.aboutProject{
+    padding: 0 30px;
+}
+
+.aboutProject h3{
+    text-transform: capitalize;
+    width: 100%;
+    text-align: left;
+}
+
+p span{
+    font-size: 13px;
+    border: solid 1px rgb(0, 74, 194);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(0, 98, 255);
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+footer h3{
+    width: auto;
+    color: black;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.socials ul{
+    display: flex;
+    list-style: none;
+}
+
+.socials ul li{
+    margin: 0 20px;
+    color: blue;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    /* color: black; */
+    /* ########### HOW TO DO THE UNDERLINE EFFECT ######### */
+    /* text-decoration: underline solid blue 2px; */
+}
