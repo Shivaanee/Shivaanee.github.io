@@ -7,7 +7,8 @@
 
 *{
     margin: 0;
-    font-size: 18px;
+    /* font-size: 18px; */
+    overflow-x: hidden;
 }
 
 body{
@@ -17,6 +18,7 @@ body{
 }
 
 .home{
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -86,10 +88,12 @@ h3{
     text-transform: uppercase;
     width: 10%;
     text-align: right;
+    font-size: 17px;
 }
 
 .text{
     width: 50%;
+    font-size: 15px;
 }
 
 .about .text * a{
@@ -108,7 +112,7 @@ h3{
 #academic-interest{
     font-weight: 600;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
     background-color: white;
     border-radius: 0;
@@ -169,6 +173,7 @@ h3{
 
 .project{
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 50px;
 }
 
@@ -204,6 +209,7 @@ footer h3{
     color: black;
     font-weight: 400;
     text-transform: none;
+    text-align: center;
 }
 
 .socials ul{
@@ -234,4 +240,25 @@ footer h3{
 
 a{
     text-decoration: none;
+}
+
+@media(max-width: 700px){
+     section{
+         flex-direction: column;
+         padding: 100px 50px;
+         align-content: center;
+         text-align: justify;
+     }
+     .home{
+         padding: 0 50px;
+     }
+     footer{
+         padding: 0 50px;
+     }
+     .text{
+         width: 100%;
+     }
+     .projects .text{
+         text-align: left;
+     }
 }
