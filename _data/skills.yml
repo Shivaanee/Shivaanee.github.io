@@ -1,0 +1,31 @@
+languages:
+  - item: Python
+  - item: Java
+  - item: SQL
+  - item: R
+  - item: HTML
+  - item: CSS
+  - item: JavaScript
+  - item: PHP
+  - item: Kotlin
+  - item: OCaml
+  - item: Prolog
+
+frameworks:
+  - item: D3
+  - item: TensorFlow
+  - item: LangChain
+  - item: XGBoost
+  - item: React
+  - item: Node.js
+
+tools:
+  - item: PyTorch
+  - item: Scikit-learn
+  - item: PowerBI
+  - item: Keras
+  - item: HuggingFace
+  - item: Git & Github
+  - item: Docker
+  - item: Jupyter
+  - item: Excel

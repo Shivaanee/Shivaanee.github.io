@@ -1,0 +1,48 @@
+- name: Book Recommender
+  url: 
+  code: 
+  description: Developed a book recommendation system using a mix of collaborative, content-based filtering and popularity-based approaches implemented through a web application.
+  used:
+    - thing: Python
+    - thing: Streamlit
+
+- name: Music Genre Classification
+  url: 
+  code: 
+  description: Using GTZAN dataset, built a ML model using K-Nearest Neighbours algorithm with 67% accuracy. Tested model with external data as well.
+  used:
+    - thing: Python
+    - thing: scikit-learn
+
+- name: Cacher
+  url: 
+  code: 
+  description: Frontend developer for a group project building a social platform with an AR scrapbooking feature on the web.
+  used:
+    - thing: React
+    - thing: TypeScript
+
+- name: Spam Text Classification
+  url: 
+  code: 
+  description: Built a deep learning model using TF-IDF algorithm with 94% accuracy to classify a text message as ham (legitimate) or spam.
+  used:
+    - thing: Python
+    - thing: Keras
+
+- name: BOOK3R
+  url: 
+  code: 
+  description: A library seat management chatbot used to test users’ likability of formal vs informal language for a chatbot. Developed for an Experimental Design course.
+  used:
+    - thing: Microsoft Bot Framework
+    - thing: MS Teams
+
+- name: MASTERMIND
+  url: 
+  code: 
+  description: A single/multi-player game with the aim of guessing a predefined sequence of random digits by inputing the digits using a button and receiving feedback (correct guess/try again/…) through LEDs and an LCD.
+  used:
+    - thing: Raspberry Pi
+    - thing: C
+    - thing: Arm Assembler
