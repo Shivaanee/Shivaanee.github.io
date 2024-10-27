@@ -17,7 +17,7 @@
 - name: Cacher
   url: 
   code: 
-  description: Frontend developer for a group project building a social platform with an AR scrapbooking feature on the web.
+  description: Frontend developer for a group project building a social platform, Cacher, with an AR scrapbooking feature on the web.
   used:
     - thing: React
     - thing: TypeScript
