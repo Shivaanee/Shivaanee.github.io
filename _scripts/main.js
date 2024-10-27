@@ -5,18 +5,22 @@ $(function() {
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
+  const coolUnderlineLink = document.getElementsByClassName('cool-underline-link');
 
   if (night) {
     input.checked = true;
     body.classList.add('night');
+    coolUnderlineLink.classList.add('night');
   }
 
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
       body.classList.remove('night');
+      coolUnderlineLink.classList.remove('night');
     } else {
       body.classList.add('night');
+      coolUnderlineLink.classList.add('night');
     }
   });
 
