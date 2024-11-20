@@ -14,6 +14,8 @@ social:
     url: https://github.com/shivaanee
   - title: linkedin
     url: https://linkedin.com/in/shivaanee
+  - title: orcid
+    url: https://orcid.org/0009-0008-7294-8331
 
 # Build settings
 markdown: kramdown
