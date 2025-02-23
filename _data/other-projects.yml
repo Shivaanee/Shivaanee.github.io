@@ -1,3 +1,21 @@
+- name: Exploring AI-Driven Solutions for Math Problems Solving
+  url: 
+  code: 
+  description: Explored AI-driven approaches and LLMs inner working for solving Olympiad-level math problems.
+  used:
+    - thing: Python
+    - thing: Qwen2.5
+    - thing: DeepSeek
+
+- name: Math Questions Classification using Fine-Tuned MathBERT
+  url: 
+  code: 
+  description: Extracted math questions from messy sources, fine-tuned MathBERT model for classification based on question topics (mainly Linear Algebra topics).
+  used:
+    - thing: Python
+    - thing: MathBERT
+    - thing: PyTorch
+
 - name: Book Recommender
   url: 
   code: 
