@@ -1,7 +1,7 @@
 - name: Exploring AI-Driven Solutions for Math Problems Solving
   url: 
   code: 
-  description: Explored AI-driven approaches and LLMs inner working for solving Olympiad-level math problems.
+  description: Explored python code generation, majority voting, emsemble methods using several LLMs for solving Olympiad-level math problems and analysed their inner structures.
   used:
     - thing: Python
     - thing: Qwen2.5
